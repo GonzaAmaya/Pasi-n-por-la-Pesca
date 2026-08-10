@@ -1,0 +1,38 @@
+[
+    {
+        "icono": "whatsapp",
+        "titulo": "Edu",
+        "dato": "+54 9 3513582507",
+        "link": "https://wa.me/5493513582507"
+    },
+    {
+        "icono": "whatsapp",
+        "titulo": "Leo",
+        "dato": "+54 9 3513140047",
+        "link": "https://wa.me/5493513140047"
+    },
+    {
+        "icono": "grupo",
+        "titulo": "Grupo de Whastapp",
+        "dato": "Enterate de las próximas salidas",
+        "link": "https://chat.whatsapp.com/Coq2cegZLkKBOj9Ly2brSx?s=cl&p=i&mlu=1"
+    },
+    {
+        "icono": "mail",
+        "titulo": "Email",
+        "dato": "pasionporlapesca9@gmail.com",
+        "link": "mailto:pasionporlapesca9@gmail.com"
+    },
+    {
+        "icono": "instagram",
+        "titulo": "Instagram",
+        "dato": "@pasionxlapesca9",
+        "link": "https://www.instagram.com/pasionxlapesca9/?hl=en"
+    },
+    {
+        "icono": "facebook",
+        "titulo": "Facebook",
+        "dato": "Pasión X La Pesca",
+        "link": "https://www.facebook.com/profile.php?id=61587022067016&locale=es_LA"
+    }
+]

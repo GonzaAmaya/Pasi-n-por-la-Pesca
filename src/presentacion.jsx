@@ -15,7 +15,7 @@ function Presentacion() {
             📍 +3 destinos <br />
             🏕️ Fines de semana completos</p>
 
-            <a className="cta-btn" href="https://wa.me/543513140047" target="_blank" rel="noopener noreferrer">
+            <a className="cta-btn" href="https://chat.whatsapp.com/Coq2cegZLkKBOj9Ly2brSx?s=cl&p=i&mlu=1" target="_blank" rel="noopener noreferrer">
                 Sumate a nuestro grupo de WhatsApp
             </a>
             <p className="cta-nota">Coordinamos los próximos viajes ahí</p>
