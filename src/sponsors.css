@@ -1,0 +1,30 @@
+.sponsors {
+    background-color: #000000;
+    overflow: hidden;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.sponsors-track {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+.sponsor-logo {
+    height: 60px;
+    width: auto;
+    flex-shrink: 0;
+    margin: 0 3rem;
+    object-fit: contain;
+}
+
+@keyframes scroll {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-50%);
+    }
+}

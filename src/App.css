@@ -1,0 +1,51 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 255, 0);
+  color: white;
+}
+
+.logo{
+  height: 100px;
+  width: auto;
+  display: block;
+  cursor: pointer;
+  object-fit: contain;
+  transition: height 0.35s ease;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  font-size: 1.30rem;
+  gap: 1rem;
+  margin: 0;
+  align-items: center;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #4a8fe0;
+  transition: width 0.3s ease;
+}
+
+.nav-btn:hover::after {
+  width: 100%;
+}

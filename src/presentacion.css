@@ -1,0 +1,58 @@
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 80px;
+}
+
+.presentacion .dueños{
+    width: 35vh;
+    height: 50vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.presentacion .descripcion{
+    margin: 0 50px 0 50px;
+}
+
+.presentacion .descripcion h1{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    color: #5fc9e8;
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.presentacion .descripcion p{
+    margin: 20px 0;
+    font-size: 1.55rem;
+    color: white;
+    font-weight: 400;
+}
+
+.cta-btn {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-top: 32px;
+    padding: 0.85rem 2rem;
+    background-color: #25d366;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.cta-btn:hover {
+    background-color: #1ebe5b;
+}
+
+.cta-nota {
+    margin-top: 8px;
+    font-size: 0.45rem;
+    color: #8a8a8a;
+}
