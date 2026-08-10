@@ -1,0 +1,21 @@
+[
+    {
+        "nombre": "Cuero del Zorro",
+        "ubicacion": "Trenque Lauquen, Buenos Aires",
+        "descripcion": "Una de las lagunas más grandes y visitadas del oeste bonaerense, con cerca de 2.000 hectáreas. Cuenta con camping, fogones y alquiler de embarcaciones, ideal para combinar pesca con un fin de semana completo al aire libre.",
+        "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32064.569958278833!2d-62.935494237948525!3d-35.78023942749321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c17d41acfed969%3A0x359ad09728744ace!2sLaguna%20Cuero%20de%20Zorro!5e1!3m2!1ses-419!2sar!4v1786393041695!5m2!1ses-419!2sar"
+    },
+    {
+        "nombre": "Bahía San Blas",
+        "ubicacion": "Partido de Patagones, Buenos Aires",
+        "descripcion": "Reconocida como el 'paraíso del pescador deportivo', ofrece pesca embarcada y de costa durante todo el año: corvinas, tiburones, pejerrey, lenguados y más. Aguas tranquilas, sin oleaje fuerte, ideales para toda la familia.",
+        "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15014.026506365197!2d-62.243977072644626!3d-40.55875209036437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95f46619d64bad1b%3A0x70480c9476fbae2f!2sBahia%20San%20Blas%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1786393159579!5m2!1ses-419!2sar"
+    },
+    {
+        "nombre": "Hinojo Grande",
+        "ubicacion": "Trenque Lauquen, Buenos Aires",
+        "descripcion": "Reconocida por su pique parejo incluso en pleno invierno, es de las lagunas más consistentes de la región. Sus aguas provienen de Córdoba y llegan por el mismo sistema que alimenta a Cuero de Zorro, formando parte de la misma cuenca.",
+        "mapaEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45231.286818871624!2d-62.490849687067715!3d-35.9811274457202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c1735d695d8e27%3A0x30467027ca706ac5!2sLaguna%20Hinojo%20Grande%2C%20Trenque%20Lauquen!5e1!3m2!1ses-419!2sar!4v1786392904403!5m2!1ses-419!2sar"
+    }
+]
+
