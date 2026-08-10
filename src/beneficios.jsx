@@ -12,7 +12,7 @@ function Beneficios() {
     ];
 
     return (
-        <section className="beneficios" id="beneficio">
+        <section className="beneficios" id="beneficios">
         <h2>¿Por qué viajar con nosotros?</h2>
         <div className="beneficios-grid">
             {beneficios.map((b, index) => (

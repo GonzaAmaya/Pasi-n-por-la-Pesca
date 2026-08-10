@@ -6,6 +6,7 @@ import Presentacion from './presentacion.jsx'
 import Sponsors from './sponsors.jsx'
 import Viajes from './viajes.jsx'
 import Beneficios from './beneficios.jsx'
+import Reseñas from './reseñas.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <Sponsors />
     <Viajes />
     <Beneficios />
+    <Reseñas />
   </StrictMode>,
 )

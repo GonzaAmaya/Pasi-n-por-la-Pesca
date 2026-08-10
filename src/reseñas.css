@@ -1,0 +1,38 @@
+.reseñas {
+    padding: 4rem 3rem;
+    background-color: #0d1b2a;
+}
+
+.reseñas h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.reseña-card {
+    background-color: #132a3e;
+    border-radius: 10px;
+    padding: 1rem;
+    border-top: 3px solid #4a8fe0;
+    transition: transform 0.2s ease;
+}
+
+.reseña-card:hover {
+    transform: translateY(-6px);
+}
+
+.reseña-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
