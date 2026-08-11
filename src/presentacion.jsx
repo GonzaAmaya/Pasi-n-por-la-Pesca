@@ -2,7 +2,7 @@ import "./presentacion.css";
 
 function Presentacion() {
     return(
-    <section className="presentacion">
+    <section className="presentacion" id="nosotros">
         <div className="inicio">
             <img className="dueños" src="/dueños.webp" alt="Foto Dueños" />
         </div>

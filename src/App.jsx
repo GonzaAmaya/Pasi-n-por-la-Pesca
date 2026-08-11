@@ -8,13 +8,15 @@ function NavBar() {
 return(
     <nav className="nav">
         <div>
-          <img className="logo" src="/logo.webp" alt="PasionxlaPesca logo" />
+          <a href="#hero" className="logo-link">
+            <img className="logo" src="/logo.webp" alt="PasionxlaPesca logo" />
+          </a>
         </div>
 
         <ul className="menu">
+          <li><a className="nav-btn" href="#nosotros">Nosotros</a></li>
           <li><a className="nav-btn" href="#viajes">Viajes</a></li>
           <li><a className="nav-btn" href="#beneficios">Beneficios</a></li>
-          <li><a className="nav-btn" href="#reseñas">Reseñas</a></li>
           <li><a className="nav-btn" href="#contacto">Contacto</a></li>
         </ul>
     </nav>

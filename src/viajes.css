@@ -1,6 +1,7 @@
 .viajes {
     padding: 4rem 3rem;
     background-color: #0d1b2a;
+    scroll-margin-top: 130px;
 }
 
 .viajes h2 {

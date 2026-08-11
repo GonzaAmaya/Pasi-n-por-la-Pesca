@@ -8,15 +8,19 @@ import Viajes from './viajes.jsx'
 import Beneficios from './beneficios.jsx'
 import Reseñas from './reseñas.jsx'
 import Contacto from './contacto.jsx'
+import Footer from './footer.jsx'
+import Hero from './hero.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
+    <Hero />
     <Presentacion />
     <Sponsors />
     <Viajes />
     <Beneficios />
     <Reseñas />
     <Contacto />
+    <Footer />
   </StrictMode>,
 )
