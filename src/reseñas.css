@@ -36,3 +36,12 @@
     border-radius: 8px;
     display: block;
 }
+
+@media (max-width: 768px) {
+    .reseñas{
+        padding: 2rem 1.5rem;
+    }
+    .reseñas h2{
+        font-size: 1.8rem;
+    }
+}

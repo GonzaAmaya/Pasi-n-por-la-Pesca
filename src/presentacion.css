@@ -57,3 +57,37 @@
     font-size: 0.45rem;
     color: #8a8a8a;
 }
+
+@media (max-width: 768px) {
+    .presentacion {
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 1rem;
+        gap: 2rem;
+        margin: 20px;
+        scroll-margin-top: 90px;
+    }
+
+    .presentacion .dueños {
+        max-width: 320px;
+        height: auto;
+    }
+
+    .presentacion .descripcion{
+        width: 100%;
+    }
+
+    .presentacion .descripcion h1 {
+        font-size: 2.5rem;
+    }
+
+    .presentacion .descripcion p {
+        font-size: 1.3rem;
+    }
+
+    .cta-btn{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}

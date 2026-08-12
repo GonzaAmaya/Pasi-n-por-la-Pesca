@@ -57,3 +57,14 @@
     line-height: 1.6;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .viajes {
+        padding: 3rem 1.5rem;
+        scroll-margin-top: 90px;
+    }
+
+    .viaje-card {
+        padding: 1.5rem;
+    }
+}

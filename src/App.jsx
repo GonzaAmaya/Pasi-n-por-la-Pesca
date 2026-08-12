@@ -1,26 +1,31 @@
-import { useState } from "react";
-import "./App.css";
+import { useState } from 'react';
+import logo from './assets/img/logo.webp'; 
+import './App.css';
 
-function NavBar() {
+function Navbar() {
   const [menuAbierto, setMenuAbierto] = useState(false);
 
-
-return(
+  return (
     <nav className="nav">
-        <div>
-          <a href="#hero" className="logo-link">
-            <img className="logo" src="/logo.webp" alt="PasionxlaPesca logo" />
-          </a>
-        </div>
+      <a href="#hero" className="logo-link">
+        <img src={logo} alt="Pasión por la Pesca" className="logo" />
+      </a>
 
-        <ul className="menu">
-          <li><a className="nav-btn" href="#nosotros">Nosotros</a></li>
-          <li><a className="nav-btn" href="#viajes">Viajes</a></li>
-          <li><a className="nav-btn" href="#beneficios">Beneficios</a></li>
-          <li><a className="nav-btn" href="#contacto">Contacto</a></li>
-        </ul>
+      <button
+        className="boton-hamburguesa"
+        onClick={() => setMenuAbierto(!menuAbierto)}
+      >
+        ☰
+      </button>
+
+      <ul className={`menu ${menuAbierto ? 'abierto' : ''}`}>
+        <li><a href="#nosotros" className="nav-btn" onClick={() => setMenuAbierto(false)}>Nosotros</a></li>
+        <li><a href="#viajes" className="nav-btn" onClick={() => setMenuAbierto(false)}>Viajes</a></li>
+        <li><a href="#beneficios" className="nav-btn" onClick={() => setMenuAbierto(false)}>Beneficios</a></li>
+        <li><a href="#contacto" className="nav-btn" onClick={() => setMenuAbierto(false)}>Contacto</a></li>
+      </ul>
     </nav>
   );
 }
 
-export default NavBar
+export default Navbar;

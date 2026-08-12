@@ -51,3 +51,13 @@
     font-size: 0.85rem;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .contacto{
+        padding: 2rem 1.5rem;
+    }
+
+    .contacto h2{
+        font-size: 2rem;
+    }
+}
