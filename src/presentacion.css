@@ -58,6 +58,30 @@
     color: #8a8a8a;
 }
 
+@media (max-width: 1024px) and (min-width: 769px) {
+    .presentacion {
+        padding: 1rem 0.5rem;
+        gap: 1.5rem;
+    }
+
+    .presentacion .dueños {
+        width: 30vh;
+        height: 40vh;
+    }
+
+    .presentacion .descripcion h1 {
+        font-size: 2.2rem;
+    }
+
+    .presentacion .descripcion p {
+        font-size: 1rem;
+    }
+
+    .cta-btn{
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 768px) {
     .presentacion {
         flex-direction: column;
