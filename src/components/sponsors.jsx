@@ -1,7 +1,7 @@
-import bigua from "./assets/img/bigua_sponsor.webp";
-import condor from "./assets/img/condor_sponsor.webp";
-import lauquen from "./assets/img/lauquen_sponsor.webp";
-import loteros from "./assets/img/loteros_sponsor.webp";
+import bigua from "../assets/img/bigua_sponsor.webp";
+import condor from "../assets/img/condor_sponsor.webp";
+import lauquen from "../assets/img/lauquen_sponsor.webp";
+import loteros from "../assets/img/loteros_sponsor.webp";
 import "./sponsors.css";
 
 function Sponsors() {

@@ -1,4 +1,4 @@
-import dueños from "./assets/img/dueños.webp";
+import dueños from "../assets/img/dueños.webp";
 import "./presentacion.css";
 
 function Presentacion() {

@@ -1,5 +1,5 @@
 import { MessageCircle, Users, Mail, Link as LinkIcon, AtSign } from 'lucide-react';
-import contactoData from "./data/contacto.json";
+import contactoData from "../data/contacto.json";
 import "./contacto.css";
 
 function Contacto() {

@@ -1,6 +1,6 @@
-import reseña1 from "./assets/img/reseña1.webp";
-import reseña2 from "./assets/img/reseña2.webp";
-import reseña3 from "./assets/img/reseña3.webp";
+import reseña1 from "../assets/img/reseña1.webp";
+import reseña2 from "../assets/img/reseña2.webp";
+import reseña3 from "../assets/img/reseña3.webp";
 import "./reseñas.css";
 
 function Reseñas() {

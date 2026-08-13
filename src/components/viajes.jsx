@@ -1,4 +1,4 @@
-import viajesData from "./data/viajes.json";
+import viajesData from "../data/viajes.json";
 import "./viajes.css";
 
 function Viajes() {

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import video1 from "./assets/videos/video-hero1.mp4";
-import video2 from "./assets/videos/video-hero2.mp4";
-import video3 from "./assets/videos/video-hero3.mp4";
-import video4 from "./assets/videos/video-hero4.mp4";
+import video1 from "../assets/videos/video-hero1.mp4";
+import video2 from "../assets/videos/video-hero2.mp4";
+import video3 from "../assets/videos/video-hero3.mp4";
+import video4 from "../assets/videos/video-hero4.mp4";
 import "./hero.css";
 
 function Hero() {

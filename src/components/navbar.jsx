@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from './assets/img/logo.webp'; 
+import logo from '../assets/img/logo.webp'; 
 import './navbar.css';
 
 function Navbar() {

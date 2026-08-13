@@ -4,3 +4,36 @@ body{
   background-image: radial-gradient(circle at top center, #1b3a5c 0%, #0d1b2a 60%);
   background-attachment: fixed;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1b2a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a8fe0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6fa8e8;
+}
