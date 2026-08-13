@@ -12,11 +12,17 @@ de fin de semana en distintos destinos de Argentina.
 - React
 - Vite
 - CSS puro (sin frameworks)
+- Lucide React (íconos)
 
 ## Funcionalidades
 
-- Navbar responsive
-- Sección de presentación con datos destacados
+- Hero con rotación de videos de fondo y navbar flotante con efecto glassmorphism
+- Navbar responsive con menú hamburguesa animado
+- Sección "Nosotros" con datos destacados
+- Sección de beneficios con íconos
 - Carrusel animado de sponsors (CSS puro, sin librerías)
-- Sección de viajes con datos cargados desde JSON
-- Integración de Google Maps embebido por destino
+- Sección de viajes con datos cargados desde JSON, incluyendo mapas de Google embebidos
+- Sección de reseñas de clientes
+- Múltiples canales de contacto (WhatsApp, redes, email)
+- SEO optimizado (meta tags, Open Graph para compartir en redes)
+- Diseño 100% responsive

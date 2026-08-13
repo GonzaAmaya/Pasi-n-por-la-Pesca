@@ -1,10 +1,11 @@
+import dueños from "./assets/img/dueños.webp";
 import "./presentacion.css";
 
 function Presentacion() {
     return(
     <section className="presentacion" id="nosotros">
         <div className="inicio">
-            <img className="dueños" src="/dueños.webp" alt="Foto Dueños" />
+            <img className="dueños" src={dueños} alt="Foto Dueños" />
         </div>
         <div className="descripcion">
             <h1>Pasión por la Pesca</h1>
